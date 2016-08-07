@@ -176,6 +176,16 @@ footer .social-links a:hover {
     opacity:1
 }
 
+footer .quote {
+    background: #2e9961;
+    border-radius: 4px;
+    line-height: 22px;
+    margin: 0 auto;
+    padding: 18px 20px;
+    position: relative;
+    width: 600px;
+}
+
 .center {
     text-align: center;
 }
