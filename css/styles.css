@@ -20,6 +20,8 @@
 
 body, html {
     background-color: #fff;
+    background-image:url(../img/teach-pattern.png);
+    background-size:200px;
     color: #666;
     font-family:"Fira Regular";
     margin: 0;
@@ -56,6 +58,17 @@ hr {
     border-bottom: none;
     margin-top: 3em;
     margin-bottom: 2em;
+}
+
+ul {
+    margin: 0 0 12px 0;
+    padding: 0 0 0 18px;
+}
+
+ul li {
+    font-size: 15px;
+    color: #999;
+    line-height: 19px;
 }
 
 header {
@@ -108,8 +121,16 @@ section ul li, section ol li {
 }
 
 footer {
-    background:#47ad66;
-    margin-top:80px
+    background: #47ad66;
+    margin-top: 80px;
+}
+
+footer p {
+    color:white;
+}
+
+footer p .fa-heart {
+    color: #ff2e44;
 }
 
 footer .content-wrapper {
@@ -119,7 +140,6 @@ footer .content-wrapper {
     overflow:auto;
     padding:40px 0 40px 0;
     position:relative;
-    width:964px;
 }
 
 footer .social-links {
@@ -142,15 +162,18 @@ footer .social-links li a {
     padding-left:25px
 }
 
-footer .social-links .icon {
-    position:absolute;
-    display:block;
-    width:20px;
-    height:20px;
-    top:-4px;
-    left:-2px;
-    background-repeat:no-repeat;
-    background-position:center
+footer .social-links a {
+    color:white;
+    opacity:.7;
+    text-decoration:none;
+    -webkit-transition:opacity .1s linear;
+    -moz-transition:opacity .1s linear;
+    -ms-transition:opacity .1s linear;
+    -o-transition:opacity .1s linear;
+    transition:opacity .1s linear
+}
+footer .social-links a:hover {
+    opacity:1
 }
 
 .center {
