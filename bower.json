@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "homepage": "https://github.com/piryguiry/resume",
+  "authors": [
+    "Alvaro Farias <afariasfermin@gmail.com>"
+  ],
+  "description": "showcases of work",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
