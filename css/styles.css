@@ -67,7 +67,7 @@ header h1 {
     opacity: 1;
     text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
     position: relative;
-    top: 25px;
+    top: 20px;
     font-weight: 700;
 }
 
@@ -78,5 +78,47 @@ header p {
     padding-top: .5em;
     opacity: .9;
     position: relative;
-    top: 15px;
+    top: 10px;
+}
+
+section h1 {
+    font-size: 1.8em;
+    line-height: 1em;
+    margin-bottom: .6em;
+}
+
+section ul li, section ol li {
+    font-size: 1em;
+    margin-left: -10px;
+    line-height: 1.8;
+}
+
+footer {
+    margin-bottom: 1em;
+    color: #888;
+}
+
+footer hr {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+@media screen and (min-width: 50em) {
+    header {
+        height: 700px;
+    }
+
+    header h1 {
+        font-size: 3.2em;
+        top: 540px;
+    }
+
+    header p {
+        top: 530px;
+        font-size: 1.5em;
+    }
 }
