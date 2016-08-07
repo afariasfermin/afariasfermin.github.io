@@ -99,6 +99,25 @@ footer {
     margin-top: 80px;
 }
 
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 0 32px 0;
+    padding: 0;
+}
+
+footer .content-wrapper {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 40px 0 40px 0;
+    width: 964px;
+
+}
+
 .center {
     text-align: center;
 }
