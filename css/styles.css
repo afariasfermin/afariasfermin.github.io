@@ -129,6 +129,7 @@ footer {
 
 footer p {
     color: white;
+    margin: 0;
 }
 
 footer p .fa-heart {
