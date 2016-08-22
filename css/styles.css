@@ -145,6 +145,10 @@ footer .content-wrapper {
     position: relative;
 }
 
+footer .content-wrapper h1 {
+    text-transform: uppercase;
+}
+
 footer .social-links {
     display: flex;
     justify-content: center;
